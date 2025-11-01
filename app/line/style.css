@@ -1,0 +1,38 @@
+#startEnd {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  #startEnd {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.month-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.month-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.month-start::after {
+  content: "(ห้ามต่ำกว่า 1)";
+  font-size: 12px;
+  margin-left: 8px;
+  color: #888;
+}
+
+.month-end::after {
+  content: "(ห้ามเกิน 12)";
+  font-size: 12px;
+  margin-left: 8px;
+  color: #888;
+}
