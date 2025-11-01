@@ -2,6 +2,7 @@
   "name": "Frontend",
   "version": "1.0.0",
   "type": "module",
+  "packageManager": "npm@9",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3000 --turbopack",
