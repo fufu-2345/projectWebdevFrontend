@@ -2,7 +2,7 @@
   "name": "Frontend",
   "version": "1.0.0",
   "type": "module",
-  "packageManager": "npm@9",
+  "packageManager": "pnpm@8",
   "engines": {
     "node": "18.x"
   },
